@@ -1,0 +1,14 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+C:/Users/Mi/Desktop/term_project_1_2/project_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1697693484,verilog,,C:/Users/Mi/Desktop/term_project_1_2/project_1.srcs/sources_1/new/clock_buffer.v,,clk_wiz_0,,,../../../../project_1.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Mi/Desktop/term_project_1_2/project_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1697693484,verilog,,C:/Users/Mi/Desktop/term_project_1_2/project_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../project_1.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Mi/Desktop/term_project_1_2/project_1.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,,,,,,,
+C:/Users/Mi/Desktop/term_project_1_2/project_1.srcs/sources_1/new/clock_buffer.v,1697701342,verilog,,C:/Users/Mi/Desktop/term_project_1_2/project_1.srcs/sources_1/new/coin_buffer.v,,clock_buffer,,,../../../../project_1.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Mi/Desktop/term_project_1_2/project_1.srcs/sources_1/new/coin_buffer.v,1697786003,verilog,,C:/Users/Mi/Desktop/term_project_1_2/project_1.srcs/sources_1/new/debouncer.v,,coin_buffer,,,../../../../project_1.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Mi/Desktop/term_project_1_2/project_1.srcs/sources_1/new/debouncer.v,1696500956,verilog,,C:/Users/Mi/Desktop/term_project_1_2/project_1.srcs/sources_1/new/fsm_ctrlr.v,,debouncer;dff,,,../../../../project_1.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Mi/Desktop/term_project_1_2/project_1.srcs/sources_1/new/fsm_ctrlr.v,1697778410,verilog,,C:/Users/Mi/Desktop/term_project_1_2/project_1.srcs/sources_1/new/item_buffer.v,,fsm_ctrlr,,,../../../../project_1.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Mi/Desktop/term_project_1_2/project_1.srcs/sources_1/new/item_buffer.v,1697777572,verilog,,C:/Users/Mi/Desktop/term_project_1_2/project_1.srcs/sources_1/new/ssd.v,,item_buffer,,,../../../../project_1.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Mi/Desktop/term_project_1_2/project_1.srcs/sources_1/new/ssd.v,1697702026,verilog,,C:/Users/Mi/Desktop/term_project_1_2/project_1.srcs/sources_1/new/vending_machine.v,,ssd,,,../../../../project_1.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Mi/Desktop/term_project_1_2/project_1.srcs/sources_1/new/vending_machine.v,1697777923,verilog,,,,vending_machine,,,../../../../project_1.gen/sources_1/ip/clk_wiz_0,,,,,
