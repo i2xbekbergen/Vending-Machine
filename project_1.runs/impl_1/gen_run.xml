@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7s50csga324-1" LaunchTime="1697778415">
+  <File Type="ROUTE-PWR" Name="vending_machine_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="vending_machine.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="vending_machine_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="vending_machine_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="vending_machine.msk"/>
+  <File Type="ROUTE-CLK" Name="vending_machine_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="vending_machine.vdi"/>
+  <File Type="BG-BIT" Name="vending_machine.bit"/>
+  <File Type="BG-DRC" Name="vending_machine.drc"/>
+  <File Type="BG-BGN" Name="vending_machine.bgn"/>
+  <File Type="BG-BIN" Name="vending_machine.bin"/>
+  <File Type="BITSTR-RBT" Name="vending_machine.rbt"/>
+  <File Type="BITSTR-NKY" Name="vending_machine.nky"/>
+  <File Type="BITSTR-BMM" Name="vending_machine_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="vending_machine.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="vending_machine_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="vending_machine.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="vending_machine.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="vending_machine_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="vending_machine.hwdef"/>
+  <File Type="PLACE-IO" Name="vending_machine_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="vending_machine_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="vending_machine_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="vending_machine_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="vending_machine_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="vending_machine_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="vending_machine_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="vending_machine_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="vending_machine_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="vending_machine_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="vending_machine_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="vending_machine_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="vending_machine_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="vending_machine_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="vending_machine_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="vending_machine_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW" Name="vending_machine_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="vending_machine_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="vending_machine_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="vending_machine_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="vending_machine_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="vending_machine_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="vending_machine_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="vending_machine_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="vending_machine_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="vending_machine_postroute_physopt_bb.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="vending_machine_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="vending_machine_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="vending_machine_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="vending_machine.pdi"/>
+  <File Type="RCFI_FILE" Name="vending_machine.rcfi"/>
+  <File Type="CFI_FILE" Name="vending_machine.cfi"/>
+  <File Type="RNPI_FILE" Name="vending_machine.rnpi"/>
+  <File Type="NPI_FILE" Name="vending_machine.npi"/>
+  <File Type="RBD_FILE" Name="vending_machine.rbd"/>
+  <File Type="ROUTE-RQS" Name="vending_machine_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="vending_machine_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/clock_buffer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/coin_buffer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/debouncer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fsm_ctrlr.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/item_buffer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ssd.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/vending_machine.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="vending_machine"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/arty_s7_50.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+</GenRun>

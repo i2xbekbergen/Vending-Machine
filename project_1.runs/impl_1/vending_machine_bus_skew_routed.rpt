@@ -1,0 +1,15 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Fri Oct 20 14:08:41 2023
+| Host         : 20202012-p01 running 64-bit major release  (build 9200)
+| Command      : report_bus_skew -warn_on_violation -file vending_machine_bus_skew_routed.rpt -pb vending_machine_bus_skew_routed.pb -rpx vending_machine_bus_skew_routed.rpx
+| Design       : vending_machine
+| Device       : 7s50-csga324
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+
